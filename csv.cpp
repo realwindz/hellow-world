@@ -51,7 +51,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	int i = 0;
 	std::ifstream str;
 	//full path to the file
-	str.open("c:\csvtest.csv",std::ios::in);
+	str.open("c:/csvtest.csv",std::ios::in);
 	DateAndValueCSVData csv(str);
 	std::cout << csv.DateAt(0)<<std::endl;
 	std::cout << csv.GetValueArray()[2];
